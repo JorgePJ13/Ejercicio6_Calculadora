@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculadora</title>
+        <script type="text/javascript" src="js/app.js"></script>
+    </head>
+    <body style="background-color: powderblue;">
+        <header style="text-align: center; background-color: black; color: darkorange; font-weight: bold; font-size: 24px;">
+                Calculadora de Jorge Pando
+        </header>
+        <div style="padding: 20px; text-align: center;">
+            <p style="color: darkred; font-weight: bold; font-family: sans-serif;">Introduce el primer número: <input id="campo1" type="text" /></p>
+            <p style="color: darkred; font-weight: bold; font-family: sans-serif;">Introduce el segundo número: <input id="campo2" type="text" /></p>
+            <button style="border: 3px dashed darkmagenta; border-radius: 10px; background-color: chartreuse; font-size: 16px;" onclick="suma()">Sumar</button>
+            <button style="border: 3px dashed darkmagenta; border-radius: 10px; background-color: chartreuse; font-size: 16px;" onclick="resta()">Restar</button>
+            <button style="border: 3px dashed darkmagenta; border-radius: 10px; background-color: chartreuse; font-size: 16px;" onclick="multiplicacion()">Multiplicar</button>
+            <button style="border: 3px dashed darkmagenta; border-radius: 10px; background-color: chartreuse; font-size: 16px;" onclick="division()">Dividir</button>
+            <button style="border: 3px dashed darkmagenta; border-radius: 10px; background-color: chartreuse; font-size: 16px;" onclick="resto()">Resto de la división</button>
+            <p style="color: darkred; font-weight: bold; font-family: sans-serif;">El resultado es: <input id="campo3" type="text" /></p>
+        </div>
+    </body>
+</html>
